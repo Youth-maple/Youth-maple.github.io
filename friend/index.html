@@ -10,7 +10,7 @@
   
 
   
-  <script>window.icon_font = '4552607_tq6stt6tcg';window.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};</script>
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_tq6stt6tcg';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":false,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};</script>
   
   
   <title>
@@ -36,13 +36,13 @@
 <meta property="og:site_name" content="浮生若梦，为欢几何">
 <meta property="og:description" content="本站信息 站名： 故渊 站长： 枫狸 地址： maplecat.me  为什么建立本站枫狸不知道喔~ 小伙伴们（排名不分先后）                                                               D-Sketon                        网页主题的作者，一个车万人">
 <meta property="og:locale" content="zn_CN">
-<meta property="og:image" content="https://youth-maple.github.io/images/banner.png">
+<meta property="og:image" content="https://youth-maple.github.io/images/banner.webp">
 <meta property="article:published_time" content="2024-12-01T11:32:50.241Z">
 <meta property="article:modified_time" content="2024-12-01T11:32:50.241Z">
 <meta property="article:author" content="枫狸">
 <meta property="article:tag" content="闲心，梦游，不知归处，愿还于吾乡">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://youth-maple.github.io/images/banner.png">
+<meta name="twitter:image" content="https://youth-maple.github.io/images/banner.webp">
   
   
     <link rel="alternate" href="/atom.xml" title="浮生若梦，为欢几何" type="application/atom+xml">
@@ -76,11 +76,13 @@
     <div class="loading-right-bg loading-bg"></div>
     <div class="spinner-box">
       <div class="loading-taichi">
-        <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
-          <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
-          <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
-         M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
-        </svg>
+        
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+           M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg>
+        
       </div>
       <div class="loading-word">少女祈祷中...</div>
     </div>
@@ -120,25 +122,35 @@
         <div id="header-nav">
   <nav id="main-nav">
     
-      <span class="main-nav-link-wrap">
-        <div class="main-nav-icon icon-taichi"></div>
-        <a class="main-nav-link" href="/">Home</a>
-      </span>
-    
-      <span class="main-nav-link-wrap">
-        <div class="main-nav-icon icon-taichi"></div>
-        <a class="main-nav-link" href="/archives">Archives</a>
-      </span>
-    
-      <span class="main-nav-link-wrap">
-        <div class="main-nav-icon icon-taichi"></div>
-        <a class="main-nav-link" href="/about">About</a>
-      </span>
-    
-      <span class="main-nav-link-wrap">
-        <div class="main-nav-icon icon-taichi"></div>
-        <a class="main-nav-link" href="/friend">Friend</a>
-      </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/">Home</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/archives">Archives</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/about">About</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+            &#xe62b;
+          </div>
+          <a class="main-nav-link" href="/friend">Friend</a>
+        </span>
+      
     
     <a id="main-nav-toggle" class="nav-icon"></a>
   </nav>
@@ -153,7 +165,7 @@
 <header id="header">
   
     
-      <img fetchpriority="high" src="/images/101418711_p0.jpg" alt="friends">
+      <img fetchpriority="high" src="/images/banner.webp" alt="friends">
     
   
   <div id="header-outer">
@@ -320,7 +332,7 @@
           Kozakai Aya 
       </div>
       <div class="friend-desc">
-        高冷、凭亿近人，高质量人士，高学历人才，超级大学霸
+        这个也是学霸，而且是现充，温柔耐心，热情开朗，是学弟学妹们的偶像！
       </div>
     </div>
   </div><div class="friend-item-wrap">
@@ -335,7 +347,7 @@
           LemonPig 
       </div>
       <div class="friend-desc">
-        柚子厨
+        柚子厨、学霸
       </div>
     </div>
   </div></div>
@@ -344,25 +356,6 @@
     </div>
     <footer class="article-footer">
       
-      
-        <div class="sponsor-wrapper">
-  <div class="sponsor-button-wrapper">
-    <div class="footer-info-sep sponsor-icon"></div>
-    <div class="sponsor-title">Sponsor</div>
-    <div class="footer-info-sep sponsor-icon"></div>
-  </div>
-  <div class="sponsor-tip">请大佬喝冰阔落</div>
-  
-    <div class="sponsor-qr">
-      
-        <div class="sponsor-qr-image-wrapper">
-          <img src="/sponsor/alipay.jpg" alt=支付宝 width="200" />
-          <p class="sponsor-qr-name">支付宝</p>
-        </div>
-      
-    </div>
-  
-</div>
       
       
       
@@ -389,7 +382,7 @@
     <div class="sidebar-wrap" data-aos="fade-up">
       
         <div class="sidebar-author">
-  <img data-src="/avatar/maiden.webp" data-sizes="auto" alt="枫狸" class="lazyload">
+  <img data-src="/avatar/%E5%B0%8F%E4%B8%9B%E9%9B%A8.jpg" data-sizes="auto" alt="枫狸" class="lazyload">
   <div class="sidebar-author-name">枫狸</div>
   <div class="sidebar-description">Ciallo～(∠・ω&lt; )⌒☆</div>
 </div>
@@ -409,32 +402,46 @@
 </div>
 <div class="sidebar-social">
   
+    <div class="icon-twitter sidebar-social-icon">
+      <a href=https://x.com/DeityBreeze itemprop="url" target="_blank" aria-label="twitter" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
 </div>
 <div class="sidebar-menu">
   
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Home</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Archives</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">About</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Friend</div>
-    </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Friend</div>
+      </div>
+    
   
 </div>
 
@@ -443,6 +450,47 @@
     </div>
   </div>
 
+  
+    
+      
+
+    
+      
+
+    
+      
+
+    
+      
+  <div class="widget-wrapper">
+    <div class="widget-wrap" data-aos="fade-up">
+      <h3 class="widget-title">Archives</h3>
+      <div class="widget">
+        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/11/">November 2024</a></li></ul>
+      </div>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrapper">
+    <div class="widget-wrap" data-aos="fade-up">
+      <h3 class="widget-title">Recent Posts</h3>
+      <div class="widget">
+        <ul>
+          
+            <li>
+              <a href="/2024/11/26/hello-world/">行香子·述怀</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+    
   
 </aside>
 
@@ -457,7 +505,7 @@
     <div>
       <span class="icon-copyright"></span>
       2020-2024
-      <span class="footer-info-sep"></span>
+      <span class="footer-info-sep rotate"></span>
       枫狸
     </div>
     
@@ -489,17 +537,19 @@
   </div>
 </footer>
 
-        <div class="sidebar-top">
-          <div class="sidebar-top-taichi"></div>
-          <div class="arrow-up"></div>
-        </div>
-        <div id="mask"></div>
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
       </div>
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
       <div class="sidebar-author">
-  <img data-src="/avatar/maiden.webp" data-sizes="auto" alt="枫狸" class="lazyload">
+  <img data-src="/avatar/%E5%B0%8F%E4%B8%9B%E9%9B%A8.jpg" data-sizes="auto" alt="枫狸" class="lazyload">
   <div class="sidebar-author-name">枫狸</div>
   <div class="sidebar-description">Ciallo～(∠・ω&lt; )⌒☆</div>
 </div>
@@ -519,32 +569,46 @@
 </div>
 <div class="sidebar-social">
   
+    <div class="icon-twitter sidebar-social-icon">
+      <a href=https://x.com/DeityBreeze itemprop="url" target="_blank" aria-label="twitter" rel="noopener external nofollow noreferrer"></a>
+    </div>
+  
 </div>
 <div class="sidebar-menu">
   
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Home</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Archives</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">About</div>
-    </div>
-  
-    <div class="sidebar-menu-link-wrap">
-      <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
-      <div class="sidebar-menu-icon icon-taichi"></div>
-      <div class="sidebar-menu-link">Friend</div>
-    </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="Home"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Home</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="Archives"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Archives</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="About"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">About</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="Friend"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">Friend</div>
+      </div>
+    
   
 </div>
 
@@ -671,7 +735,7 @@
   \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
                                                   
 `,'color: #ff5252;')
-    console.log('%c Theme.Reimu v' + '0.3.5' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.0.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
   </script>
   
 
@@ -692,6 +756,9 @@
     });
   }
 </script>
+
+
+
 
   </body>
   </html>

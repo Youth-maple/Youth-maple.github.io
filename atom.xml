@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>浮生若梦，为欢几何</title>
-  <icon>https://youth-maple.github.io/icon.png</icon>
+  
   <subtitle>出于草草市井之家，陷没云云繁星大江</subtitle>
   <link href="https://youth-maple.github.io/atom.xml" rel="self"/>
   
@@ -23,15 +23,14 @@
     <published>2024-11-26T13:16:32.708Z</published>
     <updated>2024-12-01T07:53:57.430Z</updated>
     
+    <content type="html"><![CDATA[<p>清夜无尘，月色如银。酒斟时、须满十分。浮名浮利，虚苦劳神。叹隙中驹，石中火，梦中身。</p><p>虽抱文章，开口谁亲。且陶陶、乐尽天真。几时归去，作个闲人。对一张琴，一壶酒，一溪云。</p>]]></content>
+    
     
       
       
-        
-        
     <summary type="html">&lt;p&gt;清夜无尘，月色如银。酒斟时、须满十分。浮名浮利，虚苦劳神。叹隙中驹，石中火，梦中身。&lt;/p&gt;
 &lt;p&gt;虽抱文章，开口谁亲。且陶陶、乐尽天真。几时归去，作个闲人。对一张琴，一壶酒，一溪云。&lt;/p&gt;
 </summary>
-        
       
     
     
